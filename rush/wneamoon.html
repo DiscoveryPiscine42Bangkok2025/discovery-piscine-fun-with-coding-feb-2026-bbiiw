@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wneamoon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  
+  <body class="bg-gradient-to-br from-[#050505] via-[#0b0f1a] to-[#0d1b2a] text-white font-sans scroll-smooth">
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white/10 backdrop-blur-md z-50 shadow text-white">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="index.html" class="text-xl font-bold tracking-wide hover:text-cyan-400">wneamoon.dev</a>
+        <ul class="flex gap-6 text-sm">
+          <li><a href="#about" class="hover:text-cyan-400">About</a></li>
+          <li><a href="#showcase" class="hover:text-cyan-400">Showcase</a></li>
+          <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="pt-28 px-4 max-w-4xl mx-auto space-y-24">
+      <!-- About -->
+      <section id="about" class="flex flex-col md:flex-row items-center gap-10">
+        <img src="./img/wongwiwat.jpg" class="w-40 h-40 rounded-full object-cover border-4 border-cyan-500 shadow-lg" />
+        <div>
+          <h2 class="text-3xl font-bold mb-2">Wongwiwat Neamoon</h2>
+          <p class="text-gray-300 leading-relaxed max-w-xl">
+            I'm a student passionate about
+            <span class="text-cyan-400 font-medium">Full-Stack</span> and
+            <span class="text-cyan-400 font-medium">Backend Development</span>.
+            I focus on backend systems that support business and operational
+            processes. Studying at King Mongkut's Institute of Technology Ladkrabang, I enjoy solving
+            problems through scalable cloud-based applications.
+          </p>
+        </div>
+      </section>
+
+      <!-- Showcase -->
+      <section id="showcase" class="bg-[#1f2937] text-white p-10 rounded-xl shadow-lg">
+        <h2 class="text-2xl font-bold mb-6 border-b-2 border-cyan-600 pb-2">
+          Experience Timeline
+        </h2>
+        <div class="flex flex-col gap-8 pl-6">
+          <!-- Intern -->
+          <div class="space-y-6">
+            <h3 class="text-xl font-bold text-cyan-400">Intern</h3>
+            <div class="bg-[#2e3748] border-l-4 border-cyan-500 p-6 rounded-md shadow">
+              <p class="text-sm text-cyan-300">May – June 2025</p>
+              <h4 class="text-lg font-semibold mt-1">Software Engineer Intern – Freshket</h4>
+              <p class="text-sm text-gray-200 mt-2">
+                Developed an OCR system that reads printed receipts to extract Order IDs and product quantities,
+                reducing manual input and human error in the order fulfillment process. Integrated Claude AI for
+                intelligent document parsing and classification, enabling automation in order handling pipelines.
+                The tech stack included Go (Fiber framework), PHP, TypeScript, and Next.js across microservices.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project -->
+          <div class="space-y-6">
+            <h3 class="text-xl font-bold text-cyan-400 mt-10">Project</h3>
+
+            <div class="bg-[#2e3748] border-l-4 border-cyan-500 p-6 rounded-md shadow">
+              <p class="text-sm text-cyan-300">July 2025 – Present</p>
+              <h4 class="text-lg font-semibold mt-1">JustGo</h4>
+              <p class="text-sm text-gray-200 mt-2">
+                A smart AI-powered travel planner built using LangChain, FAISS, and Typhoon LLM. I implemented a
+                FastAPI backend using a RAG (Retrieval-Augmented Generation) architecture that personalizes
+                trips based on user preferences and budget. The mobile app, developed with React Native (Expo),
+                provides dynamic itinerary generation, hotel suggestions, and real-time budget tracking.
+              </p>
+            </div>
+
+            <div class="bg-[#2e3748] border-l-4 border-cyan-500 p-6 rounded-md shadow">
+              <p class="text-sm text-cyan-300">Aug – Oct 2024</p>
+              <h4 class="text-lg font-semibold mt-1">SeniorLink</h4>
+              <p class="text-sm text-gray-200 mt-2">
+                Developed scalable Django REST APIs to support job search, applicant profiles, and job postings for
+                senior citizens. Focused on building accessible, clean interfaces for elderly users. Optimized
+                PostgreSQL performance with indexing and query tuning, and implemented user-role-based access control.
+              </p>
+            </div>
+
+            <div class="bg-[#2e3748] border-l-4 border-cyan-500 p-6 rounded-md shadow">
+              <p class="text-sm text-cyan-300">Aug – Oct 2024</p>
+              <h4 class="text-lg font-semibold mt-1">Beauty Service Booking (AWS)</h4>
+              <p class="text-sm text-gray-200 mt-2">
+                Built REST APIs using Node.js and Express to support appointment booking and stylist management.
+                Deployed full-stack application on AWS EC2 with image storage in S3 and non-relational data in
+                DynamoDB. Integrated JWT authentication and role-based dashboard features for staff and customers.
+              </p>
+            </div>
+
+            <div class="bg-[#2e3748] border-l-4 border-cyan-500 p-6 rounded-md shadow">
+              <p class="text-sm text-cyan-300">Jan – Mar 2024</p>
+              <h4 class="text-lg font-semibold mt-1">Hotpot Restaurant Management</h4>
+              <p class="text-sm text-gray-200 mt-2">
+                Designed a responsive UI with React and Tailwind CSS for restaurant operations. Features include
+                table reservation, queue tracking, and order visualization. Implemented customer-facing interfaces
+                with QR code menus and admin panel for restaurant managers.
+              </p>
+            </div>
+
+            <div class="bg-[#2e3748] border-l-4 border-cyan-500 p-6 rounded-md shadow">
+              <p class="text-sm text-cyan-300">Aug – Oct 2023</p>
+              <h4 class="text-lg font-semibold mt-1">Jonk Food IT</h4>
+              <p class="text-sm text-gray-200 mt-2">
+                Built a web-based queue reservation system for a food court. Developed using Node.js and MySQL to
+                handle concurrent user bookings with a focus on system reliability. Designed UI for ease-of-use
+                on mobile and desktop screens, enabling food vendors to manage queues more efficiently.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2 class="text-2xl font-bold mb-6 border-b border-cyan-600 pb-2">
+          Contact
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <a
+            href="https://www.facebook.com/wongwiwat.neamoon/"
+            target="_blank"
+            class="flex flex-col items-center justify-center bg-white/10 rounded-lg p-4 hover:bg-white/20 transition text-white"
+          >
+            <i class="fab fa-facebook text-2xl mb-2"></i>
+            <span class="text-sm font-medium">Facebook</span>
+          </a>
+          <a
+            href="https://www.instagram.com/bbiiw__/"
+            target="_blank"
+            class="flex flex-col items-center justify-center bg-white/10 rounded-lg p-4 hover:bg-white/20 transition text-white"
+          >
+            <i class="fab fa-instagram text-2xl mb-2"></i>
+            <span class="text-sm font-medium">Instagram</span>
+          </a>
+          <a
+            href="https://github.com/bbiiw"
+            target="_blank"
+            class="flex flex-col items-center justify-center bg-white/10 rounded-lg p-4 hover:bg-white/20 transition text-white"
+          >
+            <i class="fab fa-github text-2xl mb-2"></i>
+            <span class="text-sm font-medium">GitHub</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/bbiiw/"
+            target="_blank"
+            class="flex flex-col items-center justify-center bg-white/10 rounded-lg p-4 hover:bg-white/20 transition text-white"
+          >
+            <i class="fab fa-linkedin text-2xl mb-2"></i>
+            <span class="text-sm font-medium">LinkedIn</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-20 text-center text-sm text-gray-500 pb-6">
+      © wneamoon 2026
+    </footer>
+  </body>
+</html>
